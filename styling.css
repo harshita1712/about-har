@@ -1,0 +1,28 @@
+body {
+    margin: 20px;
+    text-align: center;
+}
+h1 {
+    color: green;
+}
+img {
+    float: left; 
+    margin: 5px;
+}
+p {
+    text-align: justify;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+       float: none;
+        margin: 5px;
+    }
+
+    p {
+        color: rgb(255, 59, 59);
+        text-align: justify;
+        font-size: 25px;
+    }
+}
